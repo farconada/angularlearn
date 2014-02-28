@@ -19,7 +19,7 @@
     "angular-ui-bootstrap": "~0.10.0",
     "bootstrap": "~3.1.1",
     "angular-resource": "~1.2.13",
-    "cryptojs": "*",
+    "crypto-js": "http://crypto-js.googlecode.com/files/CryptoJS%20v3.1.2.zip",
     "angular-cookies": "~1.2.13"
   }
 }
