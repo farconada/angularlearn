@@ -1,0 +1,25 @@
+{
+  "name": "angular",
+  "version": "0.0.0",
+  "authors": [
+    "Fernando Arconada <fernando.arconada@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "web/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.*",
+    "angular-ui": "*",
+    "angular-ui-bootstrap": "~0.10.0",
+    "bootstrap": "~3.1.1",
+    "angular-resource": "~1.2.13",
+    "cryptojs": "*",
+    "angular-cookies": "~1.2.13"
+  }
+}

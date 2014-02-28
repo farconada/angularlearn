@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <link href="vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
+    <script type="text/javascript" src="vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="vendor/angular-cookies/angular-cookies.js"></script>
+    <script type="text/javascript" src="vendor/angular-ui-bootstrap/dist/ui-bootstrap-tpls-0.10.0.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <h1>hola mundo</h1>
+        <div ng-app="myApp">
+            <div ng-controller="mainCtrl">
+                <div id="container">
+                    <accordion>
+                        <accordion-group heading="la cabecera">
+                            <input ng-model="name" type="text" />
+                            has escrito {{name}}
+                        </accordion-group>
+                        <accordion-group heading="la cabecera 2">
+                            <button ng-click="click()"></button>
+                            has escrito {{credentials}}
+                        </accordion-group>
+                    </accordion>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
